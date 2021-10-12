@@ -75,7 +75,6 @@ function showScores() {
     element.innerHTML = gameOverHTML;
 };
  
-// create questions here
 var questions = [
     new Question("What type of animal is a Flemish giant?", ["Rabbit", "Horse","Squirrel", "Trijntje Keever"], "Rabbit"),
     new Question("The unicorn is the national animal of which country?", ["Russia", "Canada", "Ghana", "Scotland"], "Scotland"),
@@ -84,8 +83,6 @@ var questions = [
     new Question("What was the first toy to be advertised on television?", ["Slinky", "Cabbage Patch Kid", "Mr. Potato Head", "Simon"], "Mr. Potato Head")
 ];
  
-// create quiz
 var quiz = new Quiz(questions);
  
-// display quiz
 populate();
