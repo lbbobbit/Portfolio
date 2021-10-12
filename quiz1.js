@@ -77,9 +77,9 @@ function showScores() {
  
 // create questions here
 var questions = [
-    new Question("What type of animal is a Flemish giant?", ["Rabbit", "Horse","Squirrel, "Trijntje Keever"], "Rabbit"),
+    new Question("What type of animal is a Flemish giant?", ["Rabbit", "Horse","Squirrel", "Trijntje Keever"], "Rabbit"),
     new Question("The unicorn is the national animal of which country?", ["Russia", "Canada", "Ghana", "Scotland"], "Scotland"),
-    new Question("What sport is dubbed the "king of sports"?", ["Soccer", "Jai Alai","Basketball", "Badminton"], "Soccer"),
+    new Question("What sport is dubbed the king of sports?", ["Soccer", "Jai Alai","Basketball", "Badminton"], "Soccer"),
     new Question("Who created Sherlock Holmes?", ["J.R. Tolkien", "Arthur Conan Doyle", "Robert Ludlum", "Karin Slaughter"], "Arthur Conan Doyle"),
     new Question("What was the first toy to be advertised on television?", ["Slinky", "Cabbage Patch Kid", "Mr. Potato Head", "Simon"], "Mr. Potato Head")
 ];
